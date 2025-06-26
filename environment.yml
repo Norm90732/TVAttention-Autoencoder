@@ -32,3 +32,5 @@ dependencies:
       - albumentations
       - cvxpylayers
       - torchxrayvision
+      #Speed up solver for cvxpylayers, use gradient=true
+      - cvxpygen
