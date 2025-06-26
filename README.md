@@ -6,6 +6,6 @@ Using a denoising 2D Unet architecture, variations of configurations are tested 
 
 
 ### Denoising
-![Image alt text](./assets/Clean and Noise Comparison.png)
+![Denoising Comparison](./assets/clean-and-noise-comparison.png)
 
  
