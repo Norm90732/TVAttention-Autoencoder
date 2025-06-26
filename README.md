@@ -7,5 +7,5 @@ Using a denoising 2D Unet architecture, variations of configurations are tested 
 
 ### Denoising
 ![Denoising Comparison](./assets/clean-and-noise-comparison.png)
-
+place holder noise is decreased now 
  

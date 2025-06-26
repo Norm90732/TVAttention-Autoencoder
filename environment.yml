@@ -32,3 +32,6 @@ dependencies:
       - albumentations
       - cvxpylayers
       - torchxrayvision
+      #Speed up solver for cvxpylayers, use gradient=true
+      - cvxpygen
+      - hydra-optuna-sweeper #for hydra with optuna

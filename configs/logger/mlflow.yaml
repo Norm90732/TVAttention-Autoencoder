@@ -1,0 +1,6 @@
+#logging configuration to start an experiment
+#logger/mlflow.yaml
+experiment_name: "unet_denoising"
+tracking_uri: "mlruns"
+save_dir: "./mlflow_logs"
+log_model: true

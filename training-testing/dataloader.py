@@ -17,7 +17,7 @@ transformStruct = transforms_v2.Compose([
             ])
 
 class DataLoaderNoisyClean(Dataset):
-    def __init__(self, dataset,transform=None,noiseParam:tuple[float,float,bool] = (0.0,0.2,True)):
+    def __init__(self, dataset,transform=None,noiseParam:tuple[float,float,bool] = (0.0,0.05,True)):
         self.dataset = dataset
         mean,sigma,clip = noiseParam
         self.noiseStructure = GaussianNoise(mean=mean,sigma=sigma,clip=clip)
